@@ -30,9 +30,9 @@ class CurlHelper
         return $this;
     }
 
-    public function setMethod($method)
+    public function setRequestMethod($requestMethod)
     {
-        $this->requestMethod = $method;
+        $this->requestMethod = $requestMethod;
         return $this;
     }
 
