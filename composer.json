@@ -1,0 +1,22 @@
+{
+  "name" : "enumit/curl",
+  "description" : "PHP curl helper",
+  "version" : "1.0",
+  "keywords" : ["PHP", "curl", "helper"],
+  "license" : "MIT",
+  "authors" : [
+    {
+      "name" : "Wei Deng",
+      "email" : "pukuidavy@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "enumit\\curl\\": ["src/"]
+    }
+  }
+}
