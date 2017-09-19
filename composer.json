@@ -14,6 +14,9 @@
     "php": ">=5.4",
     "ext-curl": "*"
   },
+  "archive": {
+    "exclude": ["/tests"]
+  },
   "autoload": {
     "psr-4": {
       "enumit\\curl\\": ["src/"]
